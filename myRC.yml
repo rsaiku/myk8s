@@ -8,9 +8,9 @@ spec:
     app: myjavaapp
 
   template:
-  metadata:
-  labels:
-    app: myjavaapp
+    metadata:
+        labels:
+            app: myjavaapp
     spec:
       containers:
         - name: myjavaappcontainer
